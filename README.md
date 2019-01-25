@@ -43,3 +43,8 @@ JSON-object description:
 For control downloads the client send an object contains executable name, data or ID of downloads.
 Next java cmd.manager are make decision what kind of command will be call.
 
+Command | Data
+------------ | -------------
+Add | Data contains file URL
+Pause | ID contains download identity for pause
+Resume | ID contains download identity for resume
