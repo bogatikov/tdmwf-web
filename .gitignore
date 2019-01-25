@@ -1,0 +1,7 @@
+# Log file
+downloads.log.txt.*
+
+# The target directory
+target/*
+
+.idea/*
