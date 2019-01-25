@@ -47,4 +47,4 @@ Command | Data
 ------------ | -------------
 Add | Data contains file URL
 Pause | ID contains download identity for pause
-Resume | ID contains download identity for resume
+Resume | ID contains download identity for
