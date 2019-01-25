@@ -14,19 +14,19 @@ public class Manager {
 
     public void cmd(Session session,String cmd, int id, String data) throws ExecuteCmdException
     {
-        Command command = getCmdClass(cmd);
-        if (command == null) throw new ExecuteCmdException();
+        Executable executable = getCmdClass(cmd);
+        if (executable == null) throw new ExecuteCmdException();
 
-        command.setSession(session);
-        command.setId(id);
-        command.execute(data);
+        executable.setSession(session);
+        executable.setId(id);
+        executable.execute(data);
     }
 
-    protected Command getCmdClass(String cmd)
+    protected Executable getCmdClass(String cmd)
     {
         try {
             Class<?> t = Class.forName(getCmdClassName(cmd) );
-            Command cls = (Command) t.newInstance();
+            Executable cls = (Executable) t.newInstance();
 
             return cls;
         } catch (Exception e) {

@@ -6,7 +6,7 @@ import my.webapp.DownloaderObserver;
 import javax.websocket.Session;
 import java.net.URL;
 
-public class AddCmd implements Command {
+public class AddCmd implements Executable {
     private Session session;
     @Override
     public void execute(String data) {

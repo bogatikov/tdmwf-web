@@ -5,7 +5,7 @@ import my.downloader.Downloader;
 
 import javax.websocket.Session;
 
-public class ResumeCmd implements Command{
+public class ResumeCmd implements Executable {
     private int id;
     @Override
     public void execute(String data) {
