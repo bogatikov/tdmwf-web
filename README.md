@@ -1,5 +1,5 @@
 # TDMWF description #
-This is web interface for HTTP downloader by some cool guy.
+This is web interface for HTTP downloader.
 
 
 # How it's work #
