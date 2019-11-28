@@ -3,7 +3,6 @@ This is web interface for HTTP downloader by some cool guy.
 
 
 # How it's work #
-IDK.
 
 The web-interface are necessary to show information about downloads and provide control interface in real-time.
 
